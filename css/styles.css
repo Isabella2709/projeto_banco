@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#bodypag1 {
+  background-color: #011e36;
+  width: 100%;
+  height: 1000px;
+}
+
+#secpag1 {
+  width: 100%;
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#secpag1 .but1pag1 {
+  width: 25%;
+  height: 45px;
+  border-radius: 8px;
+  border-color: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: rgba(0, 255, 255, 0.452);
+}
+
+#secpag1 .but1pag1:hover {
+  background-color: blue;
+  color: grey;
+  transition: 0.3s;
+}
+
+#head1 {
+  background-color: #011e36;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#head1 .positimg {
+  margin-left: 25px;
+}
+
+#head1 a {
+  text-decoration: none;
+  font-family: "Biryani";
+  color: aqua;
+  margin-right: 20px;
+}
+
+#head1 a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+#main1 {
+  background-color: #e4dcdc;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main1 .titi1 {
+  font-family: "Biryani";
+  color: #011e36;
+  padding-top: 3rem;
+}
+
+.sec1 {
+  width: 50%;
+  height: 300px;
+  border-radius: 6px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #011e36;
+  background-color: #adadad;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sec1 h3 {
+  margin-left: 10px;
+  margin-top: 4px;
+  font-family: "Biryani";
+}
+
+.butop {
+  width: 25%;
+  height: 45px;
+  background-color: #011e36;
+  color: aqua;
+  font-family: "Biryani", "sans-serif";
+  font-weight: 300;
+  border-radius: 6px;
+  margin-top: 3rem;
+}
+
+.fot1 {
+  background-color: #011e36;
+  width: 100%;
+  height: 80px;
+}
+
+#mainpag2 {
+  width: 100%;
+  height: 1000px;
+  background-color: #adadad62;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mainpag2 .titipag2 {
+  font-family: "Biryani";
+  color: #011e36;
+  padding-top: 3rem;
+}
+
+#mainpag2 .divpaimain1 {
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+#mainpag2 .divpaimain1 .opcoes {
+  width: 50%;
+  height: 250px;
+  gap: 3rem;
+  border-radius: 6px;
+  border-color: #011e36;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainpag2 .divpaimain1 .opcoes .textop {
+  font-family: "Biryani";
+  color: #011e36;
+  font-size: medium;
+}
+
+.opcoes {
+  font-family: "Biryani";
+  color: #011e36;
+  font-size: medium;
+}
+
+#mainpag2 .butpagop {
+  margin-top: 4rem;
+  width: 25%;
+  height: 45px;
+  border-radius: 6px;
+  background-color: #011e36;
+  color: white;
+  font-family: "Biryani";
+}
+
+#mainpag2 .butpagop:hover {
+  background-color: blue;
+  color: #adadad;
+  transition: 0.3s;
+}
+
+#mainpag2 #mostraresut {
+  margin-top: 3rem;
+  color: #011e36;
+  font-size: 16px;
+}
